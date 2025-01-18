@@ -93,58 +93,44 @@ Fetches product reviews and provides a summary.
 
 Query Parameters:
 url: The product page URL (e.g., Amazon, Flipkart, etc.)
+
+
 Example Request:
 
 GET https://<your-ngrok-url>/api/reviews?url=https://www.amazon.com/dp/B08L5TNJHG
 
 
-
 {
-
 
   "reviews_count": 50,
 
-  
   "reviews": [
-
   
     {
-
     
       "title": "Great Product",
-
       
       "body": "I love this product. It works as expected.",
-
       
       "rating": 5,
-
       
       "reviewer": "John Doe"
 
-      
     },
-
     
     {
       "title": "Not bad",
-
       
       "body": "The product is okay, but it could be improved.",
-
       
       "rating": 3,
-
       
       "reviewer": "Jane Smith"
-
       
     }
 
-    
   ],
 
-  
   "summarized_reviews": "The product has received mixed reviews. Some customers are happy with its performance, while others feel it could be improved. Overall, it has a rating of 3.5 out of 5."
 
   
