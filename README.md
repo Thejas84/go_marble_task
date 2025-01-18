@@ -144,3 +144,13 @@ GET https://<your-ngrok-url>/api/reviews?url=https://www.amazon.com/dp/B08L5TNJH
 ![Screenshot (338)](https://github.com/user-attachments/assets/0b8dd752-290d-445c-9f7e-b3b80c5505b7)
 
 
+
+**Troubleshooting**
+
+
+Error 500: If the scraping fails, check the logs for errors related to Playwright or OpenAI. You may need to adjust the scraping selectors for specific websites.
+
+
+ngrok Connection: Ensure that ngrok is running properly. If ngrok disconnects, restart the app and the ngrok tunnel.
+
+
