@@ -98,21 +98,6 @@ Example Request:
 GET https://<your-ngrok-url>/api/reviews?url=https://www.amazon.com/dp/B08L5TNJHG
 
  Responses:
-![Screenshot (337)](https://github.com/user-attachments/assets/6fefc6bf-12c3-43d5-94b4-2369ad207aaf)
-
-
-
-
-
-
-
-![Screenshot (339)](https://github.com/user-attachments/assets/4d84924c-e516-409b-82ce-bd62115781c6)
-
-
-
-
-
-
 
 ![Screenshot (338)](https://github.com/user-attachments/assets/0b8dd752-290d-445c-9f7e-b3b80c5505b7)
 
