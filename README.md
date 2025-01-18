@@ -43,8 +43,9 @@ The scraped reviews are then passed to OpenAI GPT for summarization.
 The summarized reviews, along with the raw reviews, are returned to the user in a structured JSON format.
 
 
-**How to Run the Project**
 
+
+**How to Run the Project**
 
 **1. Install Prerequisites**
 
@@ -73,6 +74,8 @@ Set up your ngrok token:
 
 Replace the ngrok.set_auth_token with your actual ngrok token.
 
+
+
 **2. Run the FastAPI App Locally**
 
 
@@ -93,25 +96,10 @@ url: The product page URL (e.g., Amazon, Flipkart, etc.)
 Example Request:
 
 GET https://<your-ngrok-url>/api/reviews?url=https://www.amazon.com/dp/B08L5TNJHG
-Example Response:
 
-{
-  "reviews_count": 50,
-  "reviews": [
-    {
-      "title": "Great Product",
-      "body": "I love this product. It works as expected.",
-      "rating": 5,
-      "reviewer": "John Doe"
-    },
-    {
-      "title": "Not bad",
-      "body": "The product is okay, but it could be improved.",
-      "rating": 3,
-      "reviewer": "Jane Smith"
-    }
-  ],
-  "summarized_reviews": "The product has received mixed reviews. Some customers are happy with its performance, while others feel it could be improved. Overall, it has a rating of 3.5 out of 5."
-}
+ Responses:
+![Screenshot (337)](https://github.com/user-attachments/assets/6fefc6bf-12c3-43d5-94b4-2369ad207aaf)
+![Screenshot (339)](https://github.com/user-attachments/assets/4d84924c-e516-409b-82ce-bd62115781c6)
+![Screenshot (338)](https://github.com/user-attachments/assets/0b8dd752-290d-445c-9f7e-b3b80c5505b7)
 
 
