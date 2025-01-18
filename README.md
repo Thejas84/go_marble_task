@@ -101,7 +101,16 @@ GET https://<your-ngrok-url>/api/reviews?url=https://www.amazon.com/dp/B08L5TNJH
 ![Screenshot (337)](https://github.com/user-attachments/assets/6fefc6bf-12c3-43d5-94b4-2369ad207aaf)
 
 
+
+
+
+
+
 ![Screenshot (339)](https://github.com/user-attachments/assets/4d84924c-e516-409b-82ce-bd62115781c6)
+
+
+
+
 
 
 
