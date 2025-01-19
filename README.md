@@ -50,7 +50,7 @@ The summarized reviews, along with the raw reviews, are returned to the user in 
 **1. Install Prerequisites**
 
 Clone the repository:
-git clone https://github.com/your-username/repository-name.git
+[git clone https://github.com/your-username/repository-name.git](https://github.com/Thejas84/go_marble_task.git)
 
 cd repository-name
 
